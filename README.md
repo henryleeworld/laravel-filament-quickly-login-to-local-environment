@@ -1,4 +1,4 @@
-# Laravel 11 Filament 快速本機端登入
+# Laravel 12 Filament 快速本機端登入
 
 Filament 快速本機端登入採用快速建立簡捷的 TALL（Tailwind CSS、Alpine.js、Laravel 和 Livewire）堆疊應用程式的工具組，在處理許多不同應用程式的大型團隊中，追蹤正確的使用者憑證可能很麻煩，通過提供一個呈現登入連結的元件解決了這個問題，點擊後，該連結將使您登入。
 
@@ -21,22 +21,14 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate --seed
 ```
-- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
-```sh
-$ npm install
-```
-- 執行正式環境版本化資源管道並編譯。
-```sh
-$ npm run build
-```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/admin/login` 來進行登入。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/k9CcYGr.png)
+![](https://i.imgur.com/19BuvBW.png)
 > 確保連接僅在本地端呈現
 
-![](https://i.imgur.com/6wo2FYp.png)
+![](https://i.imgur.com/qyVRBSV.png)
 > 點擊連結後會自動登入
